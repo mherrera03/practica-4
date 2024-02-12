@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplos de Listeners de JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ejemplos de Listeners de JavaScript</h1>
+  <section class="eventos">
+    <h2>Evento Mouseover</h2>
+    <p>El evento mouseover se activa cuando el cursor del mouse se encuentra sobre un elemento.</p>
+    <div class="ejemplos">
+      <div class="ejemplo-mouseover">
+        <img src="1.jpg" alt="Imagen 1">
+        <p>Imagen 1: Cambiar el color</p>
+      </div>
+      <div class="ejemplo-mouseover">
+        <img src="2.jpg" alt="Imagen 2: Mostrar descripción emergente">
+        <p>Imagen 2: Muestra una descripción emergente al pasar el cursor</p>
+      </div>
+      <div class="ejemplo-mouseover">
+        <img src="3.jpg" alt="Imagen 3: Cambiar el cursor">
+        <p>Imagen 3: Cambia de imagen al pasar el cursor</p>
+      </div>
+    </div>
+        <h2>Evento Click</h2>
+        <p>El evento click se activa cuando se hace click en un elemento especifico.</p>
+        <div class="container">
+          <div class="column">
+            <p>Ejemplo 1: Mostrar mensaje al dar click</p>
+            <div class="ejemplos">
+              <div class="ejemplo-click">
+                <button id="boton1">Botón 1</button>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <p>Ejemplo 2: Mostrar/Ocultar Imagen al dar click</p>
+            <div class="ejemplos">
+              <div class="ejemplo-click">
+                <button id="boton-imagen" onclick="mostrar()">Mostrar imagen</button>
+                <button id="boton-ocultar" onclick="ocultar()" style="display: none;">Ocultar imagen</button>
+                <img id="imagen" src="5.jpg" style="display: none;">
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <p>Ejemplo 3: Cambia el color del texto al dar click</p>
+            <div class="ejemplos">
+              <div class="ejemplo-click">
+                <div class="evento-3">
+                  <input  class="caja" type="text" />
+                  <button id="boton-color">Cambiar color</button>
+                </div>
+                
+              </div>
+            </div>
+        </div>
+      </div>
+      <h2>Eventos focus</h2>
+      <p>El focus evento se activa cuando un elemento ha recibido foco.</p>
+<div class="row">
+  <div class="column">
+    <div class="example" id="focus1">
+      <p>Ejemplo 1: Cambiar el borde de un input mientras se recibe</p>
+      <input type="text" placeholder="Escribe algo">
+    </div>
+  </div>
+  <div class="column">
+    <div class="example" id="focus2">
+      <p>Ejemplo 2: Valida el contenido del input</p>
+      <input type="email" placeholder="Escribe tu email">
+      <p class="error">Email no válido</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="example" id="focus3">
+      <p>Ejemplo 3: Muestra una sugerencia al recibir el foco</p>
+      <input type="password" placeholder="Escribe tu contraseña">
+      <p class="hint">La contraseña debe tener al menos 8 caracteres</p>
+    </div>
+  </div>
+</div>
+  </section>
+  <footer>
+    <ul>
+      <h4>Mariana Herrera Márquez - SMSS021922</h4>
+      <h4>Junior Josué Gaitán Alberto - SMSS092222</h4>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

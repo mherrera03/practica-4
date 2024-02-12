@@ -1,0 +1,136 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(179, 147, 209);
+    font-size: 30px;
+  }
+  
+  h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ccc;
+    font-size: 25px;
+  }
+  
+  p{
+    text-align: center;
+    font-size: 20px;
+  }
+  .eventos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ejemplos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .columnas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .ejemplo-mouseover {
+    width: 300px;
+    margin: 10px;
+    border: 3px solid #bf87e4;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .ejemplo-mouseover img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ejemplo-mouseover p {
+    margin-top: 10px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .div-click {
+    background-color: rgb(92, 199, 226);
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .div-click:hover {
+    background-color: rgb(186, 240, 240);
+    
+  }
+  .btn {
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(92, 199, 226);
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: rgb(186, 240, 240);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    border: 3px solid #bf87e4;
+    padding: 10px;
+    flex-basis: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .row {
+    display: flex;
+    gap: 100px;
+  }
+  footer{
+    text-align: center;
+    color: #bf87e4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  button {
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(92, 199, 226);
+    border: none;
+    
+  }
+  
+  .ejemplo-click button,
+  .ejemplo-click button,
+  .ejemplo-click input[type="submit"] {
+    margin: 5px;
+  }
+  
+  .caja {
+    border: #bf87e4;
+  
+  }
+  input:focus {
+    border: 2px solid rgb(84, 84, 194);
+  }
+  .error {
+    color: red;
+    display: none; 
+  }
+  .hint {
+    color: gray;
+    display: none; 
+  }
